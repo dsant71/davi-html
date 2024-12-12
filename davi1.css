@@ -1,4 +1,8 @@
+* {
+    margin: 0;    
+    padding: 0
 
+}
 
 
 body { 
@@ -22,7 +26,7 @@ color:#760DF6;
 }
 
 .conteudo {
-    margin: 0% 10%;
+    margin: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,9 +35,9 @@ color:#760DF6;
 
 .conteudo__sec1 {
     display: flex;
-    width: 593px;
+    width: 615px;
     flex-direction: column;
-    gap: 10px;
+    gap: 40px;
 }
 
 .conteudo__sec1__titulo {
@@ -52,6 +56,13 @@ color:#760DF6;
 display: flex;
 justify-content: space-between;
 flex-direction: column;
-gap: 10px;
+gap: 32px;
 align-items: center;
+}
+
+.rodape {
+    background-color: #760DF6;
+    text-align: center;
+    color: black;
+    padding: 24px;
 }

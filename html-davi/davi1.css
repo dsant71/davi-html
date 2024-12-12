@@ -1,0 +1,57 @@
+
+
+
+body { 
+    border: ;
+    
+    background-image: url(fundo1.png);
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    height: 100VH;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+
+.titulodestaque {
+
+color:#760DF6;
+}
+
+.conteudo {
+    margin: 0% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.conteudo__sec1 {
+    display: flex;
+    width: 593px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteudo__sec1__titulo {
+
+    font-size: 36px;
+}
+
+.conteudo__sec1__texto {
+
+    font-size: 18px;
+}
+
+
+
+.informacoes{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+gap: 10px;
+align-items: center;
+}

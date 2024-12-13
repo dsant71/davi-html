@@ -1,12 +1,12 @@
 * {
-    margin: 0;
+    margin: 0 ;
     padding: 0
     
 }
 
 
 body {
-    border: ;
+    padding: 0% 5%;
     display: flex;
     justify-content: center;
     background-image: url(fundo1.png);
@@ -60,7 +60,7 @@ body {
 }
 
 .rodape {
-    background-color: #760DF6;
+    background-color: blueviolet;
     text-align: center;
     color: black;
     padding: 7px;
@@ -69,4 +69,26 @@ body {
     bottom: 0;
     width: 100%;
 }
+
+
+
+.cabecalho {
+    display: block;
+    top: 0;
+    padding: 7px;
+    position: fixed;
+    background-color: blueviolet ;
+    justify-content: space-between;
+    width: 100%;
+    color: black;
+     font-size: larger
+}
+
+.botoesheader{
+    gap: 10px;
+    color: black;
+    margin-inline: 5px;
+    margin-left: 2rem;
+}
+
 

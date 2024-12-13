@@ -73,7 +73,7 @@ body {
 
 
 .cabecalho {
-    display: block;
+    display: flex;
     top: 0;
     padding: 7px;
     position: fixed;

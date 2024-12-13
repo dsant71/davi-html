@@ -73,15 +73,14 @@ body {
 
 
 .cabecalho {
-    display: flex;
-    top: 0;
-    padding: 7px;
-    position: fixed;
-    background-color: blueviolet ;
-    justify-content: space-between;
-    width: 100%;
+    background-color: blueviolet;
+    text-align: center;
     color: black;
-     font-size: larger
+    padding: 7px;
+    font-size: larger;
+    position: fixed;
+    top: 0;
+    width: 100%; 
 }
 
 .botoesheader{

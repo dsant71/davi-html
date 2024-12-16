@@ -38,7 +38,7 @@ body {
     display: flex;
     width: auto;
     flex-direction: column;
-    gap: 0px;
+    gap: 15px;
 }
 
 .conteudo__sec1__titulo {

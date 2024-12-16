@@ -30,13 +30,15 @@ body {
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    position: fixed;
+    top: 80px;
 }
 
 .conteudo__sec1 {
     display: flex;
     width: auto;
     flex-direction: column;
-    gap: 10px;
+    gap: 0px;
 }
 
 .conteudo__sec1__titulo {

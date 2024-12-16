@@ -32,6 +32,7 @@ body {
     text-align: center;
     position: fixed;
     top: 80px;
+    
 }
 
 .conteudo__sec1 {
@@ -95,16 +96,16 @@ body {
 
 
 @media (max-width: 1200px) {
-    
     .cabecalho{
-        text-align: center;
+         padding: 10%;  
     }
-    .conteudo {
+    .botoesheader{
+        justify-content: center;
+    }
+    .conteudo{
         flex-direction: column-reverse;
+        padding: 8%;
+        width: auto;
     }
-    .botoesheader {
-        margin-left: 0rem;
-        margin-inline: 10px
-        ;
-    }
+    
 }

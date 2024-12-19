@@ -97,3 +97,19 @@ margin-top: 1em;
  .container__descricao{ 
     padding: 2em;
  }
+
+ .dispositivos { 
+    text-align: center;
+ }
+
+ .dispositivos__lista {
+    margin: 5em 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+ .dispositivos__titulos {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
